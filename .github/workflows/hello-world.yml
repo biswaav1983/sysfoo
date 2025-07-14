@@ -22,7 +22,7 @@ jobs:
         with:
           args: >
             -Dsonar.organization=avis-devops-demo
-            -Dsonar.projectKey=avis-devops-demo-sysfoo
+            -Dsonar.projectKey=avis-devops-demo-sysfoo_devsecops
             -Dsonar.sources=.
             -Dsonar.verbose=true
             -Dsonar.language=java
