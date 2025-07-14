@@ -27,8 +27,14 @@ jobs:
           image-ref: 'docker.io/avisdocker/cf-sysfoo:latest'
           format: 'table'
         
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
       - name: DockerHub
-        run: echo "Docker Hub"
+        run: docker push avisdocker/cf-sysfoo:latest  
         
       - name: DAST-Zap
         uses: zaproxy/action-baseline@v0.14.0
