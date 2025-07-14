@@ -19,5 +19,5 @@ jobs:
       - name: DockerHub
         run: echo "Docker Hub"
         
-      - name: Dast-Zap
-        run: echo "Dast-Zap"
+      - name: DAST-Zap
+        run: echo "DAST-Zap"
