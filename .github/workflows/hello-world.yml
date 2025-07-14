@@ -6,3 +6,18 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+        
+      - name: Secret-Scanning
+        run: echo "Secret Scanning!"
+        
+      - name: SAST
+        run: echo "SAST"
+        
+      - name: Docker Image
+        run: echo "Docker Imgae!"
+        
+      - name: DockerHub
+        run: echo "Docker Hub"
+        
+      - name: Dast-Zap
+        run: echo "Dast-Zap"
