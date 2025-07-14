@@ -21,9 +21,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.organization=avis-devops-demo
-            -Dsonar.projectKey=avis-devops-demo-sysfoo
-            -Dsonar.branch.name=cf-devsecops-demo
+            -Dsonar.organization=azeuredevsecops
+            -Dsonar.projectKey=azeuredevsecopsor
             -Dsonar.sources=.
             -Dsonar.verbose=true
             -Dsonar.language=java
