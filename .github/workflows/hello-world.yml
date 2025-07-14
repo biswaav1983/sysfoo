@@ -22,7 +22,7 @@ jobs:
         with:
           args: >
             -Dsonar.organization=azeuredevsecops
-            -Dsonar.projectKey=azeuredevsecopsor
+            -Dsonar.projectKey=azeuredevsecopsorg
             -Dsonar.sources=.
             -Dsonar.verbose=true
             -Dsonar.language=java
