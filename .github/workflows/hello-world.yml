@@ -19,7 +19,7 @@ jobs:
         run: echo "SAST"
         
       - name: Docker Image
-        run: echo "Docker Imgae!"
+        run: docker build -t avisdocker/cf-sysfoo .
         
       - name: DockerHub
         run: echo "Docker Hub"
