@@ -31,4 +31,6 @@ jobs:
         run: echo "Docker Hub"
         
       - name: DAST-Zap
-        run: echo "DAST-Zap"
+        uses: zaproxy/action-baseline@v0.14.0
+        with:
+          target: 'https://ginandjuice.shop/'
